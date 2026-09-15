@@ -1248,3 +1248,88 @@ table.data-table {
     display: none !important;
   }
 }
+
+
+
+
+
+
+
+/* Disable hover effects and mobile tap highlight */
+
+@media (hover: none) and (pointer: coarse) {
+
+  /* Remove blue tap highlight */
+  *,
+  *::before,
+  *::after {
+    -webkit-tap-highlight-color: transparent !important;
+  }
+
+
+  /* ---------- Sidebar ---------- */
+
+  .sidebar-link:hover {
+    background: transparent;
+    color: var(--muted-foreground);
+  }
+
+
+  /* ---------- Console Cards ---------- */
+
+  .console-card-hover:hover {
+    transform: none;
+    border-color: var(--border);
+    box-shadow: var(--shadow-console);
+  }
+
+
+  /* ---------- Buttons ---------- */
+
+  .btn-primary:hover {
+    opacity: 1;
+  }
+
+  .btn-outline:hover {
+    border-color: var(--border);
+    background: color-mix(in oklab, var(--surface-raised) 70%, transparent);
+  }
+
+  .btn-ghost:hover {
+    background: transparent;
+  }
+
+
+  /* ---------- Typeahead ---------- */
+
+  .typeahead-clear:hover {
+    background: transparent;
+    color: var(--muted-foreground);
+  }
+
+  .typeahead-option:hover {
+    background: transparent;
+  }
+
+
+  /* ---------- Export Menu ---------- */
+
+  .export-menu-item:hover {
+    background: transparent;
+  }
+
+
+  /* ---------- Series Toggle ---------- */
+
+  .series-toggle:hover {
+    color: var(--muted-foreground);
+  }
+
+
+  /* ---------- Data Table ---------- */
+
+  .data-table tbody tr:hover {
+    background: transparent;
+  }
+
+}
