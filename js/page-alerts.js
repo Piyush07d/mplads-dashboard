@@ -57,7 +57,7 @@
      }
 
      .grn{
-     color: #d3d603;}
+     color: #37c517;}
      
     .alert-table{
     display: flex;
@@ -80,6 +80,14 @@
       padding:10px 20px;
      }
 
+     .info-divs-left h4{
+     font-weight: 800;
+     }
+
+     .info-divs-left p{
+     font-size: 15px ;
+     }
+
       .high{
       border: 0.5px solid black;
        border-left: 5px solid red;
@@ -92,7 +100,7 @@
 
       .low{
       border: 0.5px solid black;
-      border-left: 5px solid #e1e31d}
+      border-left: 5px solid #37c517}
       }  
 
 
@@ -149,13 +157,115 @@
                      91
                    </h4>
                    <p class="alert-info-risk-score">Risk Score</p>
-              </div
+              </div>
+
             </div>
 
+
+             <div class="alerts-infos high">
+
+              <div class="info-divs-left">
+                   <h4>
+                    #1011 · Very fast payment pattern
+                   </h4>
+                   <p>95% of the sanctioned amount was paid within an unusually short execution window.</p>
+              </div>
+              <div class="info-divs-right">
+                   <h4>
+                     89
+                   </h4>
+                   <p class="alert-info-risk-score">Risk Score</p>
+              </div>
+
+            </div>
+
+
+
+
+
+            <div class="alerts-infos medium">
+
+              <div class="info-divs-left">
+                   <h4>
+                     #1012 · Low utilisation for active project
+                   </h4>
+                   <p>Only 36% of sanctioned value has been paid despite the project being active.</p>
+              </div>
+              <div class="info-divs-right">
+                   <h4>
+                     64
+                   </h4>
+                   <p class="alert-info-risk-score">Risk Score</p>
+              </div>
+              
+            </div>
+
+
+
+
+            <div class="alerts-infos medium">
+
+              <div class="info-divs-left">
+                   <h4>
+                   #1016 · Unusual cost concentration
+                   </h4>
+                   <p>Contractor pricing is materially above the peer average for similar road works.</p>
+              </div>
+              <div class="info-divs-right">
+                   <h4>
+                     61
+                   </h4>
+                   <p class="alert-info-risk-score">Risk Score</p>
+              </div>
+              
+            </div>
+
+
+
+
+            <div class="alerts-infos low">
+
+              <div class="info-divs-left">
+                   <h4>
+                    #1004 · Minor timing anomaly
+                   </h4>
+                   <p>Payment timing differs from the median pattern for similar projects.</p>
+              </div>
+              <div class="info-divs-right">
+                   <h4>
+                     38
+                   </h4>
+                   <p class="alert-info-risk-score">Risk Score</p>
+              </div>
+              
+            </div>
+
+
+            <div class="alerts-infos low">
+
+              <div class="info-divs-left">
+                   <h4>
+                    #1015 · Delayed completion window
+                   </h4>
+                   <p>Project has an extended expected completion period.</p>
+              </div>
+              <div class="info-divs-right">
+                   <h4>
+                     34
+                   </h4>
+                   <p class="alert-info-risk-score">Risk Score</p>
+              </div>
+              
+            </div>
+
+            
 
         </div>
 
       </main>
+
+     
+
 
 
 
